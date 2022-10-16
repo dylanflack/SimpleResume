@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 :root{
-    --Green:rgb(64, 165, 44);
+    --Red:rgb(187, 28, 28);
 }
 
 *{
@@ -17,7 +17,7 @@
 }
 
 *::selection{
-    background:var(--Green);
+    background:var(--Red);
     color: #333;
 }
 
@@ -35,7 +35,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--Green);
+    background:var(--Red);
 }
 
 body{
@@ -65,7 +65,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--Green);
+    background:var(--Red);
 }
 
 .heading{
@@ -78,7 +78,7 @@ section{
 }
 
 .heading span{
-    color: var(--Green);
+    color: var(--Red);
 }
 
 
@@ -103,7 +103,7 @@ header .user img{
     border-radius: 25%;
     object-fit: cover ;
     margin-bottom: 1rem;
-    border: .5rem solid var(--Green);
+    border: .5rem solid var(--Red);
 }
 
 header .user .name{
@@ -136,7 +136,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background:var(--Green);
+    background:var(--Red);
 }
 
 #menu{
@@ -174,7 +174,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color: var(--Green);
+    color: var(--Red);
 }
 
 .home p{
@@ -200,7 +200,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color: var(--Green);
+    color: var(--Red);
     padding: 1rem 0;
     font-weight: normal;
 }
@@ -230,7 +230,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color: var(--Green);
+    color: var(--Red);
 }
 
 .about .row .counter .box h3{
@@ -387,7 +387,7 @@ header .navbar ul li a:hover{
 
 .contact .row .contect .info h3 i{
     padding-right: 1rem;
-    color: var(--Green);
+    color: var(--Red);
 }
 
 
