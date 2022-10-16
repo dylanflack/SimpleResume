@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Pages</title>
+    <link rel="stylesheet" href="css/skillstyle.css">
+</head>
+<body>
+<!--Don't delete Jank button to go back to main -->
+
+<a href="index.html" class="btn"> Back To Home </a>
+ 
+<!--Start of Wrapper and Container-->
+
+   <div class="wrapper">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="box">
+                <img src="images/WAVE.jpg" alt="#">
+                <h3>Welcome</h3>
+                <p>Welcome to my skills page, to go back click the <strong>BACK TO HOME</strong> button on the top left of your screen.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/HTML5.png" alt="#">
+                <h3>HTML</h3>
+                <p> I've created a hand full of websties using HTML in Lab.
+                   This website was made using over three Hundred lines of HTML. 
+                </p>
+                <a href="https://www.hostinger.com/tutorials/what-is-html" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/CSS.png" alt="#">
+                <h3>CCS</h3>
+                <p>Along with HTML I've also got experience with using CSS. CSS is like the backbone when working with HTML, Everything from the Colors and sizes of the text on my Website were made using CSS.
+                </p>
+                <a href="https://www.tutorialspoint.com/css/what_is_css.htm" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/JAVA.png" alt="#">
+                <h3>JAVA</h3>
+                <p>Java is an Object Oriented programming language.</p>
+                <a href="https://www.java.com/en/download/help/whatis_java.html" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/SQLp.png" alt="#">
+                <h3>SQL</h3>
+                <p>I've used SQL to create a database, SQL is a programming language that allows you to create and view databases and is widely used around the world.
+                    It does everyhing from organzing a list of Customers at local bakery to storing mass amounts of user information for large compaines.</p>
+                <a href="https://www.geeksforgeeks.org/what-is-sql/" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/LINUX.png" alt="#">
+                <h3>LINUX</h3>
+                <p>Linux is an open source Operating System meaning it's free of use, it's moslty used for Servers because of how flexible and easy it is to configure and 
+                    how little resources are used to run it, it can easily be use on lower end systems and gives you the freedom to do whatever you want to the system.  </p>
+                <script>
+                    var sites = [
+                        'https://www.linux.com/what-is-linux/',
+                        'https://github.com/MrGlockenspiel/activate-linux'
+                    ];
+                
+                    function randomSite() {
+                        var i = parseInt(Math.random() * sites.length);
+                        location.href = sites[i];
+                    }
+                </script>
+                <a href="#" class="btn" onclick="randomSite();">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/WS.jpg" alt="#">
+                <h3>WINDOWS SERVER</h3>
+                <p>I've used Windows Server 2016 to configure and set up a local file share Server. </p>
+                <a href="https://www.makeuseof.com/tag/windows-server-different-windows/" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/NETWORKING.png" alt="#">
+                <h3>NETWORKING</h3>
+                <p>I have in Lab experience with configuring Switches using the CLI and setting up local networks</p>
+                <a href="https://www.geeksforgeeks.org/what-is-computer-networking/" class="btn">read more</a>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
