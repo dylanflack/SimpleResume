@@ -100,7 +100,7 @@ header{
 header .user img{
     height: 17rem;
     width: 17rem;
-    border-radius: 25%;
+    border-radius: 100%;
     object-fit: cover ;
     margin-bottom: 1rem;
     border: .5rem solid var(--Red);
