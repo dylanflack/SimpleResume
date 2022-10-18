@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 :root{
-    --blue:rgb(28, 129, 187);
+    --orange:rgb(235, 155, 8);
 }
 
 *{
@@ -17,7 +17,7 @@
 }
 
 *::selection{
-    background:var(--blue);
+    background:var(--orange);
     color: #333;
 }
 
@@ -35,7 +35,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--blue);
+    background:var(--orange);
 }
 
 body{
@@ -65,7 +65,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--blue);
+    background:var(--orange);
 }
 
 .heading{
@@ -78,7 +78,7 @@ section{
 }
 
 .heading span{
-    color: var(--blue);
+    color: var(--orange);
 }
 
 
@@ -103,7 +103,7 @@ header .user img{
     border-radius: 100%;
     object-fit: cover ;
     margin-bottom: 1rem;
-    border: .5rem solid var(--blue);
+    border: .5rem solid var(--orange);
 }
 
 header .user .name{
@@ -136,7 +136,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background:var(--blue);
+    background:var(--orange);
 }
 
 #menu{
@@ -172,7 +172,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color: var(--blue);
+    color: var(--orange);
 }
 
 .home p{
@@ -198,7 +198,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color: var(--blue);
+    color: var(--orange);
     padding: 1rem 0;
     font-weight: normal;
 }
@@ -228,7 +228,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color: var(--blue);
+    color: var(--orange);
 }
 
 .about .row .counter .box h3{
