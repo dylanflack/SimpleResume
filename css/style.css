@@ -388,8 +388,16 @@ header .navbar ul li a:hover{
     color: var(--Red);
 }
 
+a {
+    color: #eee;
+    text-decoration: none;
+}
 
-
+a:hover {
+    color:rgb(228, 76, 6);; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 
 
 
