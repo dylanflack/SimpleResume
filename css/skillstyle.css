@@ -84,6 +84,27 @@ h1{
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 }
 
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+    
+}
+
+html::-webkit-scrollbar-track{
+    background: #222;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--orange);
+}
+
+
+
 @media (max-width:770px){
     .wrapper{
         padding: 20px;
