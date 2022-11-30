@@ -108,6 +108,7 @@ html::-webkit-scrollbar-thumb{
 @media (max-width:770px){
     .wrapper{
         padding: 20px;
+        
     }
 }
 
